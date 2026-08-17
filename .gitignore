@@ -1,0 +1,46 @@
+# To repozytorium jest PUBLICZNE.
+# Nie dodawaj tu niczego poza plikami front-endu.
+
+# ── Nigdy: panel administracyjny i jego kopie ────────────────────────────────
+admin*.html
+*admin*
+
+# ── Nigdy: konfiguracja serwera ──────────────────────────────────────────────
+# .htaccess zawiera sciezke do pliku hasel (AuthUserFile).
+.htaccess
+.htpasswd
+
+# ── Nigdy: sekrety ───────────────────────────────────────────────────────────
+.env
+.env.*
+*_key
+*key.txt
+.anthropic_key
+.email_pass
+.supabase_service_key
+*ingpay_sandbox*
+*service_role*
+
+# ── Nigdy: dokumenty firmowe i dane osobowe ──────────────────────────────────
+dokumenty/
+umowy/
+poufne/
+memory/
+archiwum/
+*.doc
+*.docx
+*.zip
+
+# ── Nigdy: schemat bazy i funkcje brzegowe ───────────────────────────────────
+*.sql
+skrypty/
+*.ts
+*.py
+
+# ── Smieci systemowe ─────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp
+~$*
