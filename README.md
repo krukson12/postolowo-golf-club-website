@@ -28,9 +28,6 @@ Repozytorium zawiera wyłącznie warstwę publiczną. Poza nim pozostają panel
 administracyjny, funkcje brzegowe, schemat bazy, konfiguracja serwera oraz
 dokumenty firmowe.
 
-Klucz Supabase widoczny w kodzie to klucz `anon` — publiczny z założenia,
-osadzony w każdej stronie korzystającej z Supabase. Dostęp do danych chronią
-polityki RLS po stronie bazy, nie ukrywanie tego klucza.
 
 ## Licencja
 
